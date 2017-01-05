@@ -1,4 +1,5 @@
 # Compiled Object files
+[Oo]bj/
 *.slo
 *.lo
 *.o
@@ -8,22 +9,25 @@
 *.gch
 *.pch
 
-# Compiled Dynamic libraries
+# thirdparty source files
+/_thirdparty/**/*.cpp
+/_thirdparty/**/*.cbp
+
+# Compiled binaries
+[Bb]in/
 *.so
 *.dylib
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
 
 # Executables
 *.exe
 *.out
 *.app
+
+# Fortran module files
+*.mod
+*.smod
+
+# Codeblocks files
+*.depend
+*.layout
